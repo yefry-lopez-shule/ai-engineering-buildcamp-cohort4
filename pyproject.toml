@@ -1,0 +1,20 @@
+[project]
+name = "ai-engineering-buildcamp-cohort4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "yefry-lopez-shule", email = "yefry.lopez@shule.tech" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "openai>=3.19.2",
+]
+
+[project.scripts]
+ai-engineering-buildcamp-cohort4 = "ai_engineering_buildcamp_cohort4:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
